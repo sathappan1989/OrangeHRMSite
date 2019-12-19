@@ -18,7 +18,7 @@ class loginTest(unittest.TestCase):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
-
+        
     def test_01_login_valid(self):
         driver = self.driver
         driver.get("https://opensource-demo.orangehrmlive.com/")
@@ -72,6 +72,7 @@ class loginTest(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
         print("Test Completed")
+        print("How r you")
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/Users/sathu/PycharmProjects/OrangeHRMSite/Reports'))
