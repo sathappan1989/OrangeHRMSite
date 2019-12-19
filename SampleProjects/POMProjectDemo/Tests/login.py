@@ -74,6 +74,7 @@ class loginTest(unittest.TestCase):
         print("Test Completed")
         print("Git new")
         print("testing")
+        print("closewindow")
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/Users/sathu/PycharmProjects/OrangeHRMSite/Reports'))
