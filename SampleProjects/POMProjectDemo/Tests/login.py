@@ -73,6 +73,7 @@ class loginTest(unittest.TestCase):
         cls.driver.quit()
         print("Test Completed")
         print("How r you")
+        print("Git added")
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/Users/sathu/PycharmProjects/OrangeHRMSite/Reports'))
