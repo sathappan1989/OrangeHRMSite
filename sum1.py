@@ -1,6 +1,4 @@
-#Revert example
-#line 2
-#line 3
+
 print("new file")
 print("I am a sum file")
 
